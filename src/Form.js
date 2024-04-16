@@ -25,13 +25,13 @@ function Form({ onAddItem }) {
           onChange={(e) => setQuantity(Number(e.target.value))}
         >
           {Array.from({ length: 30 }, (_, n) => n + 1).map((num) => (
-            <option value={num} key={num}>
+            <option className="Qty" value={num} key={num}>
               {num}
             </option>
           ))}
         </select>
         <input value={name} onChange={(e) => setName(e.target.value)} />
-        <button>Order</button>
+        <button className="AddIt">Add Item</button>
       </form>
     </div>
   );

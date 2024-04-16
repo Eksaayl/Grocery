@@ -6,8 +6,8 @@ function Footer({ items }) {
   return (
     <div>
       <p>
-        You have {items.length} item in your list, and you already completed
-        {completedItem}
+        You have {items.length} item in your list, and you already completed{" "}
+        {completedItem}.
       </p>
     </div>
   );

@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.AddIt {
+  margin-left: 5px;
+}
+
+.Qty {
+  margin-right: 5px;
+}
+
+.delete-btn {
+  background-color: red;
+}
+
+.check-btn {
+  background-color: rgb(80, 255, 80);
+}

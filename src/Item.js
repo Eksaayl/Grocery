@@ -6,10 +6,10 @@ function Item({ itemList, onDeleteItem, onCheckedItem }) {
       <li className="todo-item">{itemList.quantity + " " + itemList.name}</li>
 
       <button className="delete-btn" onClick={() => onDeleteItem(itemList.id)}>
-        <i className="fas fa-trash"></i>
+        Delete
       </button>
       <button className="check-btn" onClick={() => onCheckedItem(itemList.id)}>
-        {itemList.isChecked ? "Check" : <i className="fas fa-check"></i>}
+        {itemList.isChecked ? "Checked" : <div>Check</div>}
       </button>
     </div>
   );
