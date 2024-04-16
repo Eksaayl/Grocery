@@ -1,10 +1,12 @@
+/* eslint-disable no-unused-vars */
 import "./App.css";
+import React from "react";
 import Header from "./Header";
 import ItemList from "./ItemList";
 import Form from "./Form";
 import Item from "./Item";
 import { useState } from "react";
-import Footer from "./Footer";
+import Footer from "./footer";
 
 function App() {
   const [items, setItems] = useState([

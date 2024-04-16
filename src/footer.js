@@ -1,3 +1,5 @@
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable react/prop-types */
 function Footer({ items }) {
   let completedItem = items.filter((item) => item.isChecked).length;
 

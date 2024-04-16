@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/react-in-jsx-scope */
 function Item({ itemList, onDeleteItem, onCheckedItem }) {
   return (
     <div className="todo darker-todo">
